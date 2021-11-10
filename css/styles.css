@@ -333,11 +333,6 @@ p {
   height: 20px;
   fill: currentColor;
 }
-.social-item:hover,
-.social-item:focus {
-  background-color: var(--accent-color);
-  color: var(--hero-text-color);
-}
 /* постоянные клиенты */
 .clients .team-title {
   margin-bottom: 50px;
@@ -366,7 +361,7 @@ p {
   fill: currentColor;
 }
 .clients .item:hover,
-.clients .item:focus {
+.clients .link:focus {
   color: var(--accent-color);
   border: 1px solid var(--accent-color);
 }
@@ -406,8 +401,8 @@ p {
   color: var(--hero-text-color);
   background-color: rgba(255, 255, 255, 0.1);
 }
-.join .social-item:hover,
-.join .social-item:focus {
+.social-item:hover,
+.social-item .link:focus {
   background-color: var(--accent-color);
   color: var(--hero-text-color);
 }
