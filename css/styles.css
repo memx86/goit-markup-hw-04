@@ -133,10 +133,6 @@ p {
 .header-logo {
   margin-right: 93px;
 }
-/* выделение текущей страницы в навигации */
-.header-link.header-link--current {
-  color: var(--accent-color);
-}
 .header-list {
   display: flex;
   font-weight: 500;
@@ -157,7 +153,11 @@ p {
 .header-link:focus {
   color: var(--accent-color);
 }
-/* иконки в контактах */
+/* выделение текущей страницы в навигации */
+.header-link--current {
+  color: var(--accent-color);
+}
+/* Контакты */
 .header-link--contacts {
   display: inline-flex;
   align-items: center;
