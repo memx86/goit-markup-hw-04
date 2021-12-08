@@ -380,6 +380,7 @@ p {
   margin-top: 20px;
 }
 .footer-link {
+  display: block;
   margin-top: 9px;
   color: var(--footer-link-color);
   font-style: normal;
