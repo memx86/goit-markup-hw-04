@@ -318,11 +318,10 @@ button {
 /* блок соцсетей */
 .social {
   display: flex;
+  justify-content: center;
 }
 .team-social {
   margin-top: 16px;
-  padding-left: 32px;
-  padding-right: 32px;
 }
 .social-item:not(:last-child) {
   margin-right: 10px;
@@ -346,9 +345,8 @@ button {
 }
 .clients-list {
   display: flex;
-  margin-left: auto;
-  margin-right: auto;
   gap: var(--gap-size);
+  justify-content: center;
 }
 .clients-item {
   --column-number: 6;
